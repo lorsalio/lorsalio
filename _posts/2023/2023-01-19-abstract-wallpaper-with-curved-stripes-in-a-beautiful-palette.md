@@ -12,22 +12,22 @@ postimage: "/images/2023/2023-01-19-abstract-wallpaper-with-curved-stripes-in-a-
 thumbimage: "/images/2023/2023-01-19-abstract-wallpaper-with-curved-stripes-in-a-beautiful-palette/post-thumb.jpg"
 dropdown_links:
   landscape_3840x2160:
-    url: "https://www.dropbox.com/s/fg86eztts8mc7it/2023-01-30%20-%20Lor1.jpg?dl=1"
-    size: "49Kb"
+    url: "https://www.dropbox.com/s/ya0lrtyi850traq/landscape_3840x2160.jpg?dl=1"
+    size: "1.54Mb"
   landscape_2560x1440:
-    url: "https://www.dropbox.com/s/fg86eztts8mc7it/2023-01-30%20-%20Lor1.jpg?dl=1"
-    size: "449Kb"
+    url: "https://www.dropbox.com/s/33fssvcsmfu7gnx/landscape_2560x1440.jpg?dl=1"
+    size: "513Kb"
   landscape_1920x1080:
-    url: "https://www.dropbox.com/s/fg86eztts8mc7it/2023-01-30%20-%20Lor1.jpg?dl=1"
-    size: "98Kb"
+    url: "https://www.dropbox.com/s/gc0in3souh8uyji/landscape_1920x1080.jpg?dl=1"
+    size: "437Kb"
   portrait_1440x3088:
-    url: "https://www.dropbox.com/s/fg86eztts8mc7it/2023-01-30%20-%20Lor1.jpg?dl=1"
-    size: "98Kb"
+    url: "https://www.dropbox.com/s/fdcxkojonxxhwuo/portrait_1440x3088.jpg?dl=1"
+    size: "1.04Mb"
   portrait_1080x2400:
-    url: "https://www.dropbox.com/s/fg86eztts8mc7it/2023-01-30%20-%20Lor1.jpg?dl=1"
-    size: "98Kb"
+    url: "https://www.dropbox.com/s/xrfqs0qtna9bx4h/portrait_1080x2400.jpg?dl=1"
+    size: "385Kb"
   portrait_720x1650:
-    url: "https://www.dropbox.com/s/fg86eztts8mc7it/2023-01-30%20-%20Lor1.jpg?dl=1"
-    size: "98Kb"
+    url: "https://www.dropbox.com/s/c3ppnuxw802e0z8/portrait_720x1650.jpg?dl=1"
+    size: "157Kb"
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, ex quis mattis pulvinar, nisi nulla rhoncus purus, eget mattis quam turpis vitae magna. Proin laoreet ante a urna hendrerit tincidunt. Aenean cursus tempor libero id feugiat. Donec aliquet sem vel felis porttitor tempor. Fusce vulputate lacinia eros ac elementum. Donec odio sapien, efficitur at congue a, rhoncus et nisi</p>
