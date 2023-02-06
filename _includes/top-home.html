@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <base href="/">
+    <meta name="generator" content="Jekyll v4.2.2" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    {% if page.url == "/" %}
+    {% else %}
+    <link rel="canonical" href="https://lorsalio.github.io/" />
+    {% endif %}
+    {% if paginator.previous_page %}<link rel="prev" href="{{site.url}}{{ paginator.previous_page_path | relative_url }}" />{% endif %}
+    {% if paginator.next_page %}<link rel="next" href="{{site.url}}{{ paginator.next_page_path | relative_url }}" />{% endif %}
+    {% include /favicon.html %}
+    <meta property="og:url" content="{{site.url}}/" />
+    <meta property="og:site_name" content="Lorsalio" />
+    <meta property="og:image" content="{{ site.imagehome }}" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="720" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:site" content="@lorsalio">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="{{ site.title }}" />
+    <meta property="twitter:description" content="{{ site.description }}" />
+    <meta property="twitter:image" content="{{ site.imagehome }}" />
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>

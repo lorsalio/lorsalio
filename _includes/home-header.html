@@ -1,0 +1,17 @@
+<header class="main-header">
+  <div class="container main-header__container">
+    <div class="main-header__logo">
+      <a class="logo" {% if page.url == "/" %}{% else %}href="/"{% endif %}>
+        <svg class="logo__image" width="128" height="39">
+          <use xlink:href="img/sprite.svg#logo"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="main-header__content border">
+      <button class="theme-button" type="button" title="Toggle theme"><span class="theme-button__switch-slider theme-button__switch-slider--active"></span></button>
+      <ul class="socials">
+        {% include /header-socials.html %}
+      </ul>
+    </div>
+  </div>
+</header>

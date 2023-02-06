@@ -1,0 +1,21 @@
+{% include /top-home.html %}
+  <body>
+    {% include /home-header.html %}
+    <main class="main">
+      <h1 class="visually-hidden">Lorsalio - wallpapers and icons</h1>
+      <div class="container">
+        <div class="posts">
+          <div class="posts__list posts-list">
+            {% for post in paginator.posts %}
+            {% include /small-post.html %}
+            {% endfor %}
+          </div>
+        </div>
+        {% include /pagination.html %}
+      </div>
+    </main>
+    {% include /footer.html %}
+    <script src="js/goodshare.min.js"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
