@@ -30,4 +30,4 @@ dropdown_links:
     url: "https://www.dropbox.com/s/ce613vy0bh9p73r/portrait_720x1650.jpg?dl=1"
     size: "331Kb"
 ---
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, ex quis mattis pulvinar, nisi nulla rhoncus purus, eget mattis quam turpis vitae magna. Proin laoreet ante a urna hendrerit tincidunt. Aenean cursus tempor libero id feugiat. Donec aliquet sem vel felis porttitor tempor. Fusce vulputate lacinia eros ac elementum. Donec odio sapien, efficitur at congue a, rhoncus et nisi</p>
+<p>Download free dark abstract wallpaper with linear shape, for popular screen resolutions computers and mobile devices</p>

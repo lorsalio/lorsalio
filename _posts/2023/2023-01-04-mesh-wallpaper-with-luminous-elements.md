@@ -30,4 +30,4 @@ dropdown_links:
     url: "https://www.dropbox.com/s/i2dkiqj2hlxbjpo/portrait_720x1650.jpg?dl=1"
     size: "309Kb"
 ---
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, ex quis mattis pulvinar, nisi nulla rhoncus purus, eget mattis quam turpis vitae magna. Proin laoreet ante a urna hendrerit tincidunt. Aenean cursus tempor libero id feugiat. Donec aliquet sem vel felis porttitor tempor. Fusce vulputate lacinia eros ac elementum. Donec odio sapien, efficitur at congue a, rhoncus et nisi</p>
+<p>Download free mesh wallpaper with luminous elements, for popular screen resolutions computers and mobile devices</p>
