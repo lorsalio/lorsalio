@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Lorsalio - Wallpapers, Icons, Patterns
+title: Lorsalio - Wallpapers, Icons
 email: lorsalio7@gmail.com
-description: Free downloads, wallpapers, patterns, icons. The wallpapers are created in high resolution 4K and adapted for different mobile devices. Icons are designed primarily for the Windows OS, but may be suitable for other OS. Patterns can be used in your commercial work.
+description: Free downloads, wallpapers, patterns, icons. The wallpapers are created in high resolution 4K and adapted for different mobile devices. Icons are designed primarily for the Android OS, but may be suitable for other OS.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://lorsalio.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -28,27 +28,26 @@ url: "https://lorsalio.github.io" # the base hostname & protocol for your site, 
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
 
-paginate: 6
-paginate_path: "/pages/page:num/"
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: "/pages/page:num/"
+  title: ':title - Страница :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 
 socials:
   twitter:
     url: "https://twitter.com/Lorsalio"
     icon: "twitter-ic"
-  telegram:
+  donation:
     url: "#"
-    icon: "telegram-ic"
+    icon: "donation-ic"
   email:
     url: "mailto:lorsalio7@gmail.com"
     icon: "email-ic"
@@ -59,8 +58,11 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - package.json
+  - package-lock.json
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+

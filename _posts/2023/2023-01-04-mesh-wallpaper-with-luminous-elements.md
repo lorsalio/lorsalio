@@ -4,12 +4,16 @@ title: Mesh wallpaper with luminous elements
 description: Download free mesh wallpaper with luminous elements, for popular screen resolutions, aesthetic backgrounds, 4k, 2k, FHD and modern mobile smartphones
 date: 2023-01-04 01:00 
 tag_post: Wallpaper
-permalink: "posts/:year/:year-:month-:day-:slug/"
+permalink: "posts/:year-:month-:day-:slug/"
 dropdown: true
-license: true
+category: Wallpapers
+category_name: Wallpapers
+category_link: /wallpapers/
 imagehome: "/images/2023/2023-01-04-mesh-wallpaper-with-luminous-elements/imagehome.jpg"
 postimage: "/images/2023/2023-01-04-mesh-wallpaper-with-luminous-elements/post-image.jpg"
+postimage2x: "/images/2023/2023-01-04-mesh-wallpaper-with-luminous-elements/post-image2x.jpg"
 thumbimage: "/images/2023/2023-01-04-mesh-wallpaper-with-luminous-elements/post-thumb.jpg"
+thumbimage2x: "/images/2023/2023-01-04-mesh-wallpaper-with-luminous-elements/post-thumb2x.jpg"
 dropdown_links:
   landscape_3840x2160:
     url: "https://www.dropbox.com/s/v32mf2askdlhe54/landscape_3840x2160.jpg?dl=1"

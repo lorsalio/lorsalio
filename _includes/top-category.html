@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="page full-height" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <base href="/">
+    <meta name="google-site-verification" content="wT6OJGD2c6X-2UO215OI1_oaiD31bLkqm7y9gL2Vim8" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    {% if page.url contains "/wallpapers/" and page.url != "/wallpapers/index.html" %}
+    <link rel="canonical" href="{{ site.url }}/wallpapers/" />
+    {% elsif page.url contains "/android-icons/" and page.url != "/android-icons/index.html" %}
+    <link rel="canonical" href="{{ site.url }}/android-icons/" />
+    {% endif %}
+    {% if paginator.previous_page %}
+    <link rel="prev" href="{{ site.url }}{{ paginator.previous_page_path | relative_url }}" />
+    {% endif %}
+    {% if paginator.next_page %}
+    <link rel="next" href="{{ site.url }}{{ paginator.next_page_path | relative_url }}" />
+    {% endif %}
+    {% include /favicon.html %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', ''}}" />
+    <meta property="og:site_name" content="Lorsalio" />
+    <meta property="og:image" content="{{ site.url }}{{ site.imagehome }}" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="720" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:site" content="@lorsalio">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="{{ page.title }}" />
+    <meta property="twitter:description" content="{{ page.description }}" />
+    <meta property="twitter:image" content="{{ site.url }}{{ site.imagehome }}" />
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>

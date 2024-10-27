@@ -4,12 +4,16 @@ title: Stylish world map wallpaper
 description: Download free stylish world map wallpaper, for popular screen resolutions, aesthetic backgrounds, 4k, 2k, FHD and modern mobile smartphones
 date: 2023-01-11 01:00
 tag_post: Wallpaper
-permalink: "posts/:year/:year-:month-:day-:slug/"
+permalink: "posts/:year-:month-:day-:slug/"
 dropdown: true
-license: true
+category: Wallpapers
+category_name: Wallpapers
+category_link: /wallpapers/
 imagehome: "/images/2023/2023-01-11-stylish-world-map-wallpaper/imagehome.jpg"
 postimage: "/images/2023/2023-01-11-stylish-world-map-wallpaper/post-image.jpg"
+postimage2x: "/images/2023/2023-01-11-stylish-world-map-wallpaper/post-image2x.jpg"
 thumbimage: "/images/2023/2023-01-11-stylish-world-map-wallpaper/post-thumb.jpg"
+thumbimage2x: "/images/2023/2023-01-11-stylish-world-map-wallpaper/post-thumb2x.jpg"
 dropdown_links:
   landscape_3840x2160:
     url: "https://www.dropbox.com/s/veosqp6pq34kfc6/landscape_3840x2160.jpg?dl=1"

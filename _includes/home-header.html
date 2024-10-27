@@ -2,16 +2,19 @@
   <div class="container main-header__container">
     <div class="main-header__logo">
       <a class="logo" {% if page.url == "/" %}{% else %}href="/"{% endif %}>
-        <svg class="logo__image" width="128" height="39">
+        <svg class="logo__image" width="128" height="39" aria-hidden="false">
           <use xlink:href="img/sprite.svg#logo"></use>
         </svg>
       </a>
     </div>
     <div class="main-header__content border">
-      <button class="theme-button" type="button" title="Toggle theme"><span class="theme-button__switch-slider theme-button__switch-slider--active"></span></button>
-      <ul class="socials">
-        {% include /header-socials.html %}
-      </ul>
+      {% include /navigation.html %}
+      <div class="main-header__wrapper">
+        {% include /socials.html %}
+        <button class="main-header__theme-button theme-button" type="button" title="Toggle theme">
+          <span class="theme-button__switch-slider theme-button__switch-slider--active"></span>
+        </button>
+      </div>
     </div>
   </div>
 </header>

@@ -1,94 +1,103 @@
 {% include /top-post.html %}
-  <body>
-    {% include /post-header.html %}
-    <main class="main">
-      <div class="container">
-        <article class="main__post-card post-card border">
-          <div class="post-card__image-wrapper">
-            <img class="post-card__image" src="{{ page.postimage }}" width="670" height="376" alt="{{ page.title }}">
-          </div>
-          <div class="post-card__text-content">
-            <p class="post-card__info">
-              <time class="post-card__time" datetime="{{ page.date | date: '%Y-%m-%d' }}">
-                <svg class="post-card__icon" width="24" height="24">
-                  <use xlink:href="img/sprite.svg#calendar-ic"></use>
-                </svg>{{ page.date | date: '%d' }}.{{ page.date | date: '%m' }}.{{ page.date | date: '%Y' }}
-              </time>
-              <span class="post-card__tag">{{ page.tag_post }}</span>
-            </p>
-            <h1 class="post-card__title">{{ page.title }}</h1>
-          </div>
-          <div class="raw-content">
-            {{ content }}
-            {% if page.dropdown %}
-            <div class="raw-content__dropdown">
-              <div class="dropdown">
-                <button class="button dropdown__button" type="button" aria-expanded="false">Select size <svg class="button__icon" width="15" height="9">
-                    <use xlink:href="img/sprite.svg#dropdown-ic"></use>
+  <body class="page__body full-height">
+    <div class="wrapper">
+      {% include /post-header.html %}
+      <main class="main">
+        <div class="container">
+          <article class="main__post-card post-card post-card--big border">
+            <div class="post-card__wrapper">
+              <img class="post-card__image" src="{{ page.postimage }}" width="670" height="376" srcset="{{ page.postimage2x }} 2x" alt="{{ page.title }}">
+            </div>
+            <div class="post-card__text">
+              <h1 class="post-card__title">{{ page.title }}</h1>
+              <p class="post-card__meta">
+                <time class="post-card__time" datetime="{{ page.date | date: '%Y-%m-%d' }}">
+                  <svg class="post-card__icon" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="img/sprite.svg#calendar-ic"></use>
                   </svg>
-                </button>
-                <div class="dropdown__content">
-                  <div class="dropdown__section">
-                    <div class="dropdown__orientation">
-                      <svg class="dropdown__icon" width="40" height="40">
-                        <use xlink:href="img/sprite.svg#landscape-ic"></use>
-                      </svg>
-                      <span>landscape</span>
+                  {{ page.date | date: '%d' }}.{{ page.date | date: '%m' }}.{{ page.date | date: '%Y' }}
+                </time>
+                <a class="post-card__tag" href="{{ page.category_link }}">{{ page.category_name }}</a>
+              </p>
+            </div>
+            <div class="raw-content">
+              {{ content }}
+              {% if page.dropdown %}
+              <div class="raw-content__dropdown">
+                <div class="dropdown">
+                  <button class="button dropdown__button" type="button">Select size
+                    <svg class="button__icon" width="15" height="9" aria-hidden="true">
+                      <use xlink:href="img/sprite.svg#dropdown-ic"></use>
+                    </svg>
+                  </button>
+                  <div class="dropdown__content">
+                    <div class="dropdown__section">
+                      <div class="dropdown__orientation">
+                        <svg class="dropdown__icon" width="40" height="40" aria-hidden="">
+                          <use xlink:href="img/sprite.svg#landscape-ic"></use>
+                        </svg><span>landscape</span>
+                      </div>
+                      <ul class="dropdown__list">
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="{{ page.dropdown_links.landscape_3840x2160.url }}" rel="nofollow noreferrer noopener">3840x2160<span class="dropdown__size">({{ page.dropdown_links.landscape_3840x2160.size }})</span>
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="{{ page.dropdown_links.landscape_2560x1440.url }}" rel="nofollow noreferrer noopener">2560x1440<span class="dropdown__size">({{ page.dropdown_links.landscape_2560x1440.size }})</span>
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="{{ page.dropdown_links.landscape_1920x1080.url }}" rel="nofollow noreferrer noopener">1920x1080<span class="dropdown__size">({{ page.dropdown_links.landscape_1920x1080.size }})</span>
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                    <ul class="dropdown__list">
-                      <li class="dropdown__item">
-                        <a class="dropdown__link" rel="nofollow noreferrer noopener" href="{{page.dropdown_links.landscape_3840x2160.url}}">3840x2160 <span class="dropdown__size">({{page.dropdown_links.landscape_3840x2160.size}})</span>
-                        </a>
-                      </li>
-                      <li class="dropdown__item">
-                        <a class="dropdown__link" rel="nofollow noreferrer noopener" href="{{page.dropdown_links.landscape_2560x1440.url}}">2560x1440 <span class="dropdown__size">({{page.dropdown_links.landscape_2560x1440.size}})</span>
-                        </a>
-                      </li>
-                      <li class="dropdown__item">
-                        <a class="dropdown__link" rel="nofollow noreferrer noopener" href="{{page.dropdown_links.landscape_1920x1080.url}}">1920x1080 <span class="dropdown__size">({{page.dropdown_links.landscape_1920x1080.size}})</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="dropdown__section">
-                    <div class="dropdown__orientation">
-                      <svg class="dropdown__icon" width="40" height="40">
-                        <use xlink:href="img/sprite.svg#portrait-ic"></use>
-                      </svg>
-                      <span>portrait</span>
+                    <div class="dropdown__section">
+                      <div class="dropdown__orientation">
+                        <svg class="dropdown__icon" width="40" height="40" aria-hidden="">
+                          <use xlink:href="img/sprite.svg#portrait-ic"></use>
+                        </svg>
+                        <span>portrait</span>
+                      </div>
+                      <ul class="dropdown__list">
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="{{ page.dropdown_links.portrait_1440x3088.url }}" rel="nofollow noreferrer noopener">1440x3088<span class="dropdown__size">({{ page.dropdown_links.portrait_1440x3088.size }})</span>
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="{{ page.dropdown_links.portrait_1080x2400.url }}" rel="nofollow noreferrer noopener">1080x2400<span class="dropdown__size">({{ page.dropdown_links.portrait_1080x2400.size }})</span>
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="{{ page.dropdown_links.portrait_720x1650.url }}" rel="nofollow noreferrer noopener">720x1650<span class="dropdown__size">({{ page.dropdown_links.portrait_720x1650.size }})</span>
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                    <ul class="dropdown__list">
-                      <li class="dropdown__item">
-                        <a class="dropdown__link" rel="nofollow noreferrer noopener" href="{{page.dropdown_links.portrait_1440x3088.url}}">1440x3088 <span class="dropdown__size">({{page.dropdown_links.portrait_1440x3088.size}})</span>
-                        </a>
-                      </li>
-                      <li class="dropdown__item">
-                        <a class="dropdown__link" rel="nofollow noreferrer noopener" href="{{page.dropdown_links.portrait_1080x2400.url}}">1080x2400 <span class="dropdown__size">({{page.dropdown_links.portrait_1080x2400.size}})</span>
-                        </a>
-                      </li>
-                      <li class="dropdown__item">
-                        <a class="dropdown__link" rel="nofollow noreferrer noopener" href="{{page.dropdown_links.portrait_720x1650.url}}">720x1650 <span class="dropdown__size">({{page.dropdown_links.portrait_720x1650.size}})</span>
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
+              {% endif %}
+              {% if page.download_link %}
+              <div class="download-link">
+                <a href="{{ page.download_link }}" class="button">Download</a>
+              </div>
+              <p>If you want to support my work, you can do this by following <a target="_blank" href="https://boosty.to/lorsalio" rel="nofollow noopener noreferrer">this link</a> and sending a donation of any size.</p>
+              {% endif %}
+              {% if page.warning %}
+              <blockquote>
+                Attention! Download only from this official Lorsalio site, downloading from other places you can infect your device with viruses
+              </blockquote>
+              {% endif %}
+              {% include /share-big.html %}
             </div>
-            {% endif %}
-            {% if page.license %}
-            <div class="raw-content__license license">
-              <p class="license__text">Free for personal use. Not for sale. When posting material on other resources, a link to the original resource is required.</p>
-            </div>
-            {% endif %}
-          </div>
-        </article>
-        {% include /big-share.html %}
-        {% include /prev-next.html %}
-      </div>
-    </main>
-    {% include /footer.html %}
-    <script src="js/goodshare.min.js"></script>
-    <script src="js/script.min.js"></script>
+          </article>
+          {% include /prev-next.html %}
+        </div>
+      </main>
+      {% include /footer.html %}
+    </div>
+    <script src="/libs/js/goodshare.min.js" defer></script>
+    <script src="js/script.min.js" defer></script>
   </body>
 </html>
