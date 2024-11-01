@@ -23,7 +23,7 @@ email: lorsalio7@gmail.com
 description: Free downloads, wallpapers, patterns, icons. The wallpapers are created in high resolution 4K and adapted for different mobile devices. Icons are designed primarily for the Android OS, but may be suitable for other OS.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://lorsalio.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+imagehome: "img/imagehome.jpg"
 
 # Build settings
 plugins:
