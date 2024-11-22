@@ -58,6 +58,7 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - readme.md
   - package.json
   - package-lock.json
   - node_modules/
