@@ -1,87 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://lorsalio.github.io/posts/2023-01-01-striped-wallpaper-in-pleasant-pastel-colors/</loc>
-<lastmod>2023-01-01T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2023-01-04-mesh-wallpaper-with-luminous-elements/</loc>
-<lastmod>2023-01-04T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2023-01-07-abstract-wallpaper-with-geometric-pattern/</loc>
-<lastmod>2023-01-07T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2023-01-11-stylish-world-map-wallpaper/</loc>
-<lastmod>2023-01-11T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2023-01-15-dark-abstract-wallpaper-with-linear-shape/</loc>
-<lastmod>2023-01-15T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2023-01-19-abstract-wallpaper-with-curved-stripes-in-a-beautiful-palette/</loc>
-<lastmod>2023-01-19T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2023-01-25-abstract-wallpaper-with-mixed-color-waves/</loc>
-<lastmod>2023-01-25T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-13-rest-icon-pack-for-android/</loc>
-<lastmod>2024-10-13T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-14-moda-icon-pack-for-android/</loc>
-<lastmod>2024-10-14T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-15-walak-sat-icon-pack-for-android/</loc>
-<lastmod>2024-10-15T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-16-walak-icon-pack-for-android/</loc>
-<lastmod>2024-10-16T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-17-asabura-icon-pack-for-android/</loc>
-<lastmod>2024-10-17T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-18-amons-icon-pack-for-android/</loc>
-<lastmod>2024-10-18T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-19-lillian-icon-pack-for-android/</loc>
-<lastmod>2024-10-19T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-20-color-gloss-icon-pack-for-android/</loc>
-<lastmod>2024-10-20T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-21-wacia-icon-pack-for-android/</loc>
-<lastmod>2024-10-21T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-22-domka-icon-pack-for-android/</loc>
-<lastmod>2024-10-22T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-23-kaorin-icon-pack-for-android/</loc>
-<lastmod>2024-10-23T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-24-annabelle-ui-icon-pack-for-android/</loc>
-<lastmod>2024-10-24T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-10-25-shimu-icon-pack-for-android/</loc>
-<lastmod>2024-10-25T01:00:00+05:00</lastmod>
-</url>
-<url>
-<loc>https://lorsalio.github.io/posts/2024-11-22-moda-free-icons-for-ios/</loc>
-<lastmod>2024-11-22T01:00:00+05:00</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-11-22-moda-free-icons-for-ios/</loc>
+    <lastmod>2024-11-22T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-25-shimu-icon-pack-for-android/</loc>
+    <lastmod>2024-10-25T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-24-annabelle-ui-icon-pack-for-android/</loc>
+    <lastmod>2024-10-24T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-23-kaorin-icon-pack-for-android/</loc>
+    <lastmod>2024-10-23T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-22-domka-icon-pack-for-android/</loc>
+    <lastmod>2024-10-22T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-21-wacia-icon-pack-for-android/</loc>
+    <lastmod>2024-10-21T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-20-color-gloss-icon-pack-for-android/</loc>
+    <lastmod>2024-10-20T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-19-lillian-icon-pack-for-android/</loc>
+    <lastmod>2024-10-19T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-18-amons-icon-pack-for-android/</loc>
+    <lastmod>2024-10-18T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-17-asabura-icon-pack-for-android/</loc>
+    <lastmod>2024-10-17T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-16-walak-icon-pack-for-android/</loc>
+    <lastmod>2024-10-16T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-15-walak-sat-icon-pack-for-android/</loc>
+    <lastmod>2024-10-15T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-14-moda-icon-pack-for-android/</loc>
+    <lastmod>2024-10-14T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2024-10-13-rest-icon-pack-for-android/</loc>
+    <lastmod>2024-10-13T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2023-01-25-abstract-wallpaper-with-mixed-color-waves/</loc>
+    <lastmod>2023-01-25T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2023-01-19-abstract-wallpaper-with-curved-stripes-in-a-beautiful-palette/</loc>
+    <lastmod>2023-01-19T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2023-01-15-dark-abstract-wallpaper-with-linear-shape/</loc>
+    <lastmod>2023-01-15T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2023-01-11-stylish-world-map-wallpaper/</loc>
+    <lastmod>2023-01-11T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2023-01-07-abstract-wallpaper-with-geometric-pattern/</loc>
+    <lastmod>2023-01-07T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2023-01-04-mesh-wallpaper-with-luminous-elements/</loc>
+    <lastmod>2023-01-04T01:00:00+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/posts/2023-01-01-striped-wallpaper-in-pleasant-pastel-colors/</loc>
+    <lastmod>2023-01-01T01:00:00+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lorsalio.github.io/404.html</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/sitemap.xml</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/wallpapers/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/wallpapers/page2/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/ios-icons/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/pages/page2/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/pages/page3/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/pages/page4/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/android-icons/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/android-icons/page2/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/android-icons/page3/</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lorsalio.github.io/feed.xml</loc>
+    <lastmod>2024-12-19T14:20:50+05:00</lastmod>
+  </url>
+  
 </urlset>
