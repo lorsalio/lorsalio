@@ -58,6 +58,13 @@ thumbimage2x: "/images/2024/2024-10-20-color-gloss-icon-pack-for-android/post-th
   <li>Square</li>
 </ul>
 
+## Version 2.4.4 February 11 2025
+
+<ul>
+  <li>Added 22 icons</li>
+  <li>Activities fixes</li>
+</ul>
+
 ## Version 2.4.3 October 22 2024
 
 <ul>

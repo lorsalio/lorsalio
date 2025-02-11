@@ -58,6 +58,13 @@ thumbimage2x: "/images/2024/2024-10-22-domka-icon-pack-for-android/post-thumb2x.
   <li>Square</li>
 </ul>
 
+## Version 2.0.7 February 11 2025
+
+<ul>
+  <li>Added 22 icons</li>
+  <li>Activities fixes</li>
+</ul>
+
 ## Version 2.0.6 October 22 2024
 
 <ul>

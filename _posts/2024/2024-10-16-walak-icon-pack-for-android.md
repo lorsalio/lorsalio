@@ -58,6 +58,13 @@ thumbimage2x: "/images/2024/2024-10-16-walak-icon-pack-for-android/post-thumb2x.
   <li>Square</li>
 </ul>
 
+## Version 1.4.9 February 11 2025
+
+<ul>
+  <li>Added 22 icons</li>
+  <li>Activities fixes</li>
+</ul>
+
 ## Version 1.4.8 October 22 2024
 
 <ul>

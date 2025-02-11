@@ -58,6 +58,13 @@ thumbimage2x: "/images/2024/2024-10-25-shimu-icon-pack-for-android/post-thumb2x.
   <li>Square</li>
 </ul>
 
+## Version 2.6.5 February 11 2025
+
+<ul>
+  <li>Added 22 icons</li>
+  <li>Activities fixes</li>
+</ul>
+
 ## Version 2.6.4 October 22 2024
 
 <ul>

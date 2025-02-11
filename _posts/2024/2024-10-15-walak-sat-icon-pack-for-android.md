@@ -58,6 +58,13 @@ thumbimage2x: "/images/2024/2024-10-15-walak-sat-icon-pack-for-android/post-thum
   <li>Square</li>
 </ul>
 
+## Version 1.4.8 February 11 2025
+
+<ul>
+  <li>Added 22 icons</li>
+  <li>Activities fixes</li>
+</ul>
+
 ## Version 1.4.7 October 22 2024
 
 <ul>
